@@ -6,7 +6,7 @@ var Planet = /** @class */ (function () {
         this.color = color;
     }
     Planet.prototype.printPlanet = function () {
-        console.log("Planet " + this.name + " ,Radius: " + this.radius + " ,Has Ring: " + this.hasRing + " ,Color: " + this.color);
+        console.log("Planet: " + this.name + ", Radius: " + this.radius + ", Has Ring: " + this.hasRing + ", Color: " + this.color);
     };
     return Planet;
 }());
